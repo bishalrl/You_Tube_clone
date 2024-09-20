@@ -1,0 +1,1 @@
+{"database":{"rules":"database.rule.json"},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"fir-3d80e","configurations":{"android":"1:35791080832:android:9375058a37f4d58670c565"}}},"android":{"default":{"projectId":"fir-3d80e","appId":"1:35791080832:android:9375058a37f4d58670c565","fileOutput":"android/app/google-services.json"}}}}}

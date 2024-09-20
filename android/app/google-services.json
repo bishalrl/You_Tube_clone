@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "35791080832",
+    "firebase_url": "https://fir-3d80e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-3d80e",
+    "storage_bucket": "fir-3d80e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35791080832:android:d8d1bb62eab7b61470c565",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApbWisIz7ZJ0LPguh0d6xUCYML_UY3UcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35791080832:android:9375058a37f4d58670c565",
+        "android_client_info": {
+          "package_name": "com.example.you_tube_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApbWisIz7ZJ0LPguh0d6xUCYML_UY3UcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
