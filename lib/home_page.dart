@@ -2,15 +2,21 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:you_tube_clone/contents/bottom_navigation.dart';
 import 'package:you_tube_clone/cores/screens/error_page.dart';
 import 'package:you_tube_clone/cores/screens/loader.dart';
 import 'package:you_tube_clone/cores/screens/widgets/image_button.dart';
 import 'package:you_tube_clone/features/auth/provider/user_provider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,6 +82,12 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
+        
+      ),
+      bottomNavigationBar: BottomNavigation(
+        onPressed: (index) {
+          
+        },
       ),
     );
   }

@@ -45,19 +45,27 @@ class _SettingsDialogState extends State<SettingsDialog> {
       ),
       actions: [
         TextButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
           child: const Text(
             "CANCEL",
             style: TextStyle(color: Colors.black),
           ),
         ),
-        TextButton(
-          onPressed: () {},
-          child: const Text(
-            "SAVE",
-            style: TextStyle(color: Colors.black),
-          ),
-        ),
+     TextButton(
+  onPressed: () async {
+    if (widget.onSave != null) {
+      await widget.onSave!(controller.text);
+      Navigator.pop(context); // Pop after the async operation completes
+    }
+  },
+  child: const Text(
+    "SAVE",
+    style: TextStyle(color: Colors.black),
+  ),
+),
+
       ],
     );
   }

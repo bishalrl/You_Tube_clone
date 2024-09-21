@@ -4,7 +4,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:you_tube_clone/Firebase_options.dart';
+import 'package:you_tube_clone/channel/my_channel/pages/channel_settings.dart';
 import 'package:you_tube_clone/channel/my_channel/pages/my_channel_screen.dart';
+import 'package:you_tube_clone/channel/users_channel/pages/user_channel_page.dart';
 import 'package:you_tube_clone/cores/screens/loader.dart';
 import 'package:you_tube_clone/features/auth/pages/login_page.dart';
 import 'package:you_tube_clone/features/auth/pages/username_page.dart';
@@ -61,7 +63,7 @@ class MyApp extends StatelessWidget {
               }
 
               // Return your main app screen if the user data exists
-              return MyChannelScreen(); // Replace with your actual screen
+              return HomePage(); // Replace with your actual screen
             },
           );
         },
